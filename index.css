@@ -1,0 +1,11 @@
+h2{
+    background-color: aquamarine;
+    color: brown;
+    font-size: larger;
+    font-style: italic;
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: blue;
+    color: aqua;
+}

@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylsheet" href="week2-sales-reg.css" />
+  </head>
+  <style>
+    body{
+        background-color: bisque;
+        padding: 0;
+        margin: 0;
+
+    }
+    .container{
+        background-color: rgb(255, 0, 191);
+        height: 100vh;
+        display:flex;
+        width: 100%;
+    }
+    .sidebar{
+      background-color:grey;
+      flex: 2;
+      height: 50vh;
+      border-right-width:1px ;
+
+     }
+     .content{
+      flex: 8;
+     }
+     .input-container{
+      display: flex;
+      column-gap: 1px;
+     }
+     .input-section{
+      display: flex;
+      flex-direction: column;
+      flex: 1px;
+     }
+  </style>
+  <body>
+    <div class="container">
+      <div class="sidebar">
+        <div>
+          <a href="Dashboard.html">Dashboard</a>
+        </div>
+        <div>
+          <a href="SuppliersRegistration.html">SuppliersRegistration</a>
+        </div>
+      </div>
+       <div class="content">
+      <form action="" method="get">
+        <!-- section 1 -->
+         <section>
+          <h1>Sales Registration</h1>
+          <div class="input-container">
+            
+          </div>
+          <div class="input-section">
+             <label for="Sales Date">Sales Date</label>
+             <input type="date">
+             <label for="sales person">Sales Person</label>
+            </div>
+          <div>
+            
+            <select name="" id="">
+              <option value=""> select representative</option>
+              <option value="1">Isaac Ssemugenyi</option>
+               <option value="2">Nakazibwe Rose</option>
+               <option value="3">Daniella Brie</option>
+               <option value="4">Faith Arie</option>
+            </select>
+          </div>
+         </section>
+      </form>
+    </div>
+    </div>
+  </body>
+</html>
